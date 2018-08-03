@@ -14,10 +14,7 @@ import android.support.annotation.NonNull;
 @Entity(tableName = "word_table")
 public class Word {
 
-    // Auto Generate Primary Keys
-    @PrimaryKey(autoGenerate = true)
-    private int id;
-
+    @PrimaryKey
     @NonNull
     @ColumnInfo(name = "word")  // By default, column name is same as member variable
     private String mWord;
