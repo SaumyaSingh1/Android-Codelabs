@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -10,6 +10,7 @@
 
     <style name="ScoreButtons" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_background</item>
+        <item name="android:tint">@color/colorPrimary</item>
     </style>
 
     <style name="PlusButton" parent="ScoreButtons">
@@ -23,10 +24,13 @@
     </style>
 
     <style name="ScoreText">
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display3</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_centerVertical">true</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TeamText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
     </style>
 </resources>
