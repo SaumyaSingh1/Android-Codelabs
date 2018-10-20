@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 Google Inc.
+ * Copyright (C) 2018 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,11 +24,12 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 
 /***
- * Main Activity for the Material Me app, a mock sports news application with poor design choices
+ * Main Activity for the Material Me app, a mock sports news application
+ * with poor design choices.
  */
 public class MainActivity extends AppCompatActivity {
 
-    //Member variables
+    // Member variables.
     private RecyclerView mRecyclerView;
     private ArrayList<Sport> mSportsData;
     private SportsAdapter mAdapter;
@@ -38,40 +39,43 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Initialize the RecyclerView
-        mRecyclerView = (RecyclerView)findViewById(R.id.recyclerView);
+        // Initialize the RecyclerView.
+        mRecyclerView = findViewById(R.id.recyclerView);
 
-        //Set the Layout Manager
+        // Set the Layout Manager.
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        //Initialize the ArrayLIst that will contain the data
+        // Initialize the ArrayList that will contain the data.
         mSportsData = new ArrayList<>();
 
-        //Initialize the adapter and set it ot the RecyclerView
+        // Initialize the adapter and set it to the RecyclerView.
         mAdapter = new SportsAdapter(this, mSportsData);
         mRecyclerView.setAdapter(mAdapter);
 
-        //Get the data
+        // Get the data.
         initializeData();
     }
 
     /**
-     * Method for initializing the sports data from resources.
+     * Initialize the sports data from resources.
      */
     private void initializeData() {
-        //Get the resources from the XML file
-        String[] sportsList = getResources().getStringArray(R.array.sports_titles);
-        String[] sportsInfo = getResources().getStringArray(R.array.sports_info);
+        // Get the resources from the XML file.
+        String[] sportsList = getResources()
+                .getStringArray(R.array.sports_titles);
+        String[] sportsInfo = getResources()
+                .getStringArray(R.array.sports_info);
 
-        //Clear the existing data (to avoid duplication)
+        // Clear the existing data (to avoid duplication).
         mSportsData.clear();
 
-        //Create the ArrayList of Sports objects with the titles and information about each sport
+        // Create the ArrayList of Sports objects with titles and
+        // information about each sport.
         for(int i=0;i<sportsList.length;i++){
             mSportsData.add(new Sport(sportsList[i],sportsInfo[i]));
         }
 
-        //Notify the adapter of the change
+        // Notify the adapter of the change.
         mAdapter.notifyDataSetChanged();
     }
 

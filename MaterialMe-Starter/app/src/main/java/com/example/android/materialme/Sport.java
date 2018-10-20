@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 Google Inc.
+ * Copyright (C) 2018 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,16 +17,17 @@
 package com.example.android.materialme;
 
 /**
- * Data model for each row of the RecyclerView.
+ * Data model for each row of the RecyclerView
  */
 class Sport {
 
-    //Member variables representing the title and information about the sport
+    // Member variables representing the title and information about the sport.
     private String title;
     private String info;
 
     /**
-     * Constructor for the Sport data model
+     * Constructor for the Sport data model.
+     *
      * @param title The name if the sport.
      * @param info Information about the sport.
      */
@@ -36,14 +37,17 @@ class Sport {
     }
 
     /**
-     * Gets the title of the sport
+     * Gets the title of the sport.
+     *
      * @return The title of the sport.
      */
     String getTitle() {
         return title;
     }
+
     /**
-     * Gets the info about the sport
+     * Gets the info about the sport.
+     *
      * @return The info about the sport.
      */
     String getInfo() {
