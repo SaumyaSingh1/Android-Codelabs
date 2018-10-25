@@ -1,0 +1,4 @@
+#Thu Oct 25 23:24:02 IST 2018
+base.0=/home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
