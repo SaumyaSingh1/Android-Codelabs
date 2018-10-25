@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bc9c1a476a6b5d4b1575efa3056e7f75/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/sanjeev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/41ff9888369119b96c747e2fd0c89ea6/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

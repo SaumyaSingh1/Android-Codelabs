@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+MERGED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/41ff9888369119b96c747e2fd0c89ea6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/70a62117a6d9816a264131e603253d9a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8e6a7d23f78bf5e4be725dcfd561ed44/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/6c95630e140ae58cf29f9380c964c6e4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ed542255a1b6d6618fccbc86abd9fe79/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ee268d7598296a05d80c43f8d8734f15/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2a6640078f12a46bc3d5121702b9c40d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c50a25cce9aa6bd88db828f19f3e5c39/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8b836b1e746c9361a4dd493fe753102d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4852497c60a5bf362cf5bdd0b8d0cd83/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3d578764e9733b66bcbfadd55fe1beb3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bc9c1a476a6b5d4b1575efa3056e7f75/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1713444a025280b7e23171e9121a11d7/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+	package
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:19:5-53
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:1-37:12
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:18:11-69
+application
+ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:21:5-35:19
+MERGED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/41ff9888369119b96c747e2fd0c89ea6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/41ff9888369119b96c747e2fd0c89ea6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/70a62117a6d9816a264131e603253d9a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/70a62117a6d9816a264131e603253d9a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8e6a7d23f78bf5e4be725dcfd561ed44/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8e6a7d23f78bf5e4be725dcfd561ed44/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/6c95630e140ae58cf29f9380c964c6e4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/6c95630e140ae58cf29f9380c964c6e4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ed542255a1b6d6618fccbc86abd9fe79/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ed542255a1b6d6618fccbc86abd9fe79/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ee268d7598296a05d80c43f8d8734f15/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ee268d7598296a05d80c43f8d8734f15/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2a6640078f12a46bc3d5121702b9c40d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2a6640078f12a46bc3d5121702b9c40d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c50a25cce9aa6bd88db828f19f3e5c39/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c50a25cce9aa6bd88db828f19f3e5c39/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8b836b1e746c9361a4dd493fe753102d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8b836b1e746c9361a4dd493fe753102d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4852497c60a5bf362cf5bdd0b8d0cd83/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4852497c60a5bf362cf5bdd0b8d0cd83/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3d578764e9733b66bcbfadd55fe1beb3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3d578764e9733b66bcbfadd55fe1beb3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bc9c1a476a6b5d4b1575efa3056e7f75/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bc9c1a476a6b5d4b1575efa3056e7f75/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1713444a025280b7e23171e9121a11d7/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1713444a025280b7e23171e9121a11d7/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:27:9-40
+activity#com.example.android.phonenumberspinner.MainActivity
+ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:28:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/41ff9888369119b96c747e2fd0c89ea6/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/41ff9888369119b96c747e2fd0c89ea6/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/70a62117a6d9816a264131e603253d9a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/70a62117a6d9816a264131e603253d9a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8e6a7d23f78bf5e4be725dcfd561ed44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8e6a7d23f78bf5e4be725dcfd561ed44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/6c95630e140ae58cf29f9380c964c6e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/6c95630e140ae58cf29f9380c964c6e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ed542255a1b6d6618fccbc86abd9fe79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ed542255a1b6d6618fccbc86abd9fe79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ee268d7598296a05d80c43f8d8734f15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ee268d7598296a05d80c43f8d8734f15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2a6640078f12a46bc3d5121702b9c40d/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2a6640078f12a46bc3d5121702b9c40d/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c50a25cce9aa6bd88db828f19f3e5c39/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c50a25cce9aa6bd88db828f19f3e5c39/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8b836b1e746c9361a4dd493fe753102d/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8b836b1e746c9361a4dd493fe753102d/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4852497c60a5bf362cf5bdd0b8d0cd83/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4852497c60a5bf362cf5bdd0b8d0cd83/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3d578764e9733b66bcbfadd55fe1beb3/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3d578764e9733b66bcbfadd55fe1beb3/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bc9c1a476a6b5d4b1575efa3056e7f75/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bc9c1a476a6b5d4b1575efa3056e7f75/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1713444a025280b7e23171e9121a11d7/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1713444a025280b7e23171e9121a11d7/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+		ADDED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sanjeev/Downloads/Android-Codelabs/PhoneNumberSpinnerEspresso/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/41ff9888369119b96c747e2fd0c89ea6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/41ff9888369119b96c747e2fd0c89ea6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8e6a7d23f78bf5e4be725dcfd561ed44/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8e6a7d23f78bf5e4be725dcfd561ed44/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/6c95630e140ae58cf29f9380c964c6e4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/6c95630e140ae58cf29f9380c964c6e4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ed542255a1b6d6618fccbc86abd9fe79/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/ed542255a1b6d6618fccbc86abd9fe79/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ee268d7598296a05d80c43f8d8734f15/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/ee268d7598296a05d80c43f8d8734f15/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2a6640078f12a46bc3d5121702b9c40d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2a6640078f12a46bc3d5121702b9c40d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c50a25cce9aa6bd88db828f19f3e5c39/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c50a25cce9aa6bd88db828f19f3e5c39/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8b836b1e746c9361a4dd493fe753102d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8b836b1e746c9361a4dd493fe753102d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4852497c60a5bf362cf5bdd0b8d0cd83/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4852497c60a5bf362cf5bdd0b8d0cd83/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3d578764e9733b66bcbfadd55fe1beb3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3d578764e9733b66bcbfadd55fe1beb3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bc9c1a476a6b5d4b1575efa3056e7f75/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bc9c1a476a6b5d4b1575efa3056e7f75/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/73e629cdd207f65f84e666fb1800862b/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1713444a025280b7e23171e9121a11d7/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1713444a025280b7e23171e9121a11d7/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/sanjeev/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/1713444a025280b7e23171e9121a11d7/AndroidManifest.xml:26:13-58
