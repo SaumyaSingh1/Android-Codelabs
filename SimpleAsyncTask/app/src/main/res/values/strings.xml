@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SimpleAsyncTask</string>
+    <string name="napping">I am ready to start work!</string>
+    <string name="button_label">Start Task</string>
+    <string name="napping1">napping</string>
 </resources>
