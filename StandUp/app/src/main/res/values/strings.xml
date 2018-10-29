@@ -4,4 +4,6 @@
     <string name="alarm_on">Alarm on</string>
     <string name="alarm_on_message">Stand Up Alarm On!</string>
     <string name="alarm_off_message">Stand Up Alarm Off!</string>
+    <string name="notification_title">Stand Up Notification</string>
+    <string name="stand_up_title">Stand Up Alert</string>
 </resources>
