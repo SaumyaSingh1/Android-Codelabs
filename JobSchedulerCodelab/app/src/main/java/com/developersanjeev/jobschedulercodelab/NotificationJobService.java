@@ -17,6 +17,9 @@ public class NotificationJobService extends JobService {
 
     @Override
     public boolean onStartJob(JobParameters params) {
+
+        createNotificationChannel();
+
         PendingIntent contentPendingIntent = PendingIntent.getActivity
                 (this,0 ,new Intent(this, MainActivity.class),
                         PendingIntent.FLAG_UPDATE_CURRENT);
