@@ -1,5 +1,6 @@
 package com.developersanjeev.standup;
 
+import android.app.AlarmManager;
 import android.app.AlertDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -8,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
+import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,14 +22,29 @@ public class MainActivity extends AppCompatActivity {
     private NotificationManager mNotificationManager;
     private static final int NOTIFICATION_ID = 0;
     private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
+    private boolean alarmUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent notifyIntent = new Intent(this, AlarmReceiver.class);
+
+        alarmUp = (PendingIntent.getBroadcast(this,
+                NOTIFICATION_ID,notifyIntent , PendingIntent.FLAG_NO_CREATE) != null);
+
+        final PendingIntent notifyPendingIntent = PendingIntent.getBroadcast(this,
+                NOTIFICATION_ID,notifyIntent ,PendingIntent.FLAG_UPDATE_CURRENT );
+
+
+
+        final AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+
         ToggleButton alarmToggle = findViewById(R.id.alarmToggle);
+        alarmToggle.setChecked(alarmUp);
         mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        createNotificationChannel();
 
         alarmToggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -36,12 +53,17 @@ public class MainActivity extends AppCompatActivity {
                 if(isChecked){
                     // Set up the toast message in on case
                     toastMessage = getString(R.string.alarm_on_message);
-                    deliverNotification(MainActivity.this);
+                    alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,
+                            SystemClock.elapsedRealtime() + AlarmManager.INTERVAL_FIFTEEN_MINUTES,
+                            AlarmManager.INTERVAL_FIFTEEN_MINUTES, notifyPendingIntent);
                 }
                 else{
                     // Set up the toast message in off case
                     toastMessage = getString(R.string.alarm_off_message);
                     mNotificationManager.cancelAll();
+                    if(alarmManager != null){
+                        alarmManager.cancel(notifyPendingIntent);
+                    }
                 }
                 Toast.makeText(MainActivity.this, toastMessage, Toast.LENGTH_SHORT).show();
             }
@@ -64,20 +86,5 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void deliverNotification(Context context){
-        Intent contentIntent = new Intent(context, MainActivity.class);
-        PendingIntent contentPendingIntent = PendingIntent.getActivity
-                (context, NOTIFICATION_ID, contentIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(context, PRIMARY_CHANNEL_ID)
-                .setSmallIcon(R.drawable.ic_stand_up)
-                .setContentTitle(getString(R.string.stand_up_title))
-                .setContentText("You should stand up and walk around now!")
-                .setContentIntent(contentPendingIntent)
-                .setPriority(NotificationCompat.PRIORITY_HIGH)
-                .setAutoCancel(true)
-                .setDefaults(NotificationCompat.DEFAULT_ALL);
-
-        mNotificationManager.notify(NOTIFICATION_ID,builder.build() );
-    }
 }
