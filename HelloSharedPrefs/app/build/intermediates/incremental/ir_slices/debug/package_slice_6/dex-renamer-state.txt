@@ -1,0 +1,4 @@
+#Wed Oct 31 00:23:33 IST 2018
+base.0=/home/sanjeev/Downloads/Android-Codelabs/HelloSharedPrefs/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex
