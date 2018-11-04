@@ -58,6 +58,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_contact:
                 displayToast(getString(R.string.action_contact_message));
                 return true;
+            case R.id.action_settings :
+                Intent settingsIntent = new Intent(this,
+                        SettingsActivity.class);
+                startActivity(settingsIntent);
+                return true;
             default:
                 // Do nothing
         }
